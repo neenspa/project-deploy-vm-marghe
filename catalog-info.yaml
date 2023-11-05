@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: project-deploy-vm-marghe
+  description: deploy-vm-test
+  annotations:
+    backstage.io/kubernetes-id: project-deploy-vm-marghe
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/project-deploy-vm-marghe
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini

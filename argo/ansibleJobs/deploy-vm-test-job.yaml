@@ -1,0 +1,10 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: deploy-vm-test-job
+  namespace: aap
+spec:
+  connection_secret: aapaccess
+  job_template_name: deploy-vm-test
+  extra_vars: 
